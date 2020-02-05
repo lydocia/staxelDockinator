@@ -1,0 +1,82 @@
+{
+  "code": "xable.dockinator.dock",
+  "craftingKeyword": "Dockinator",
+  "removeReagentsOnCraftStart": false,
+  "nameTagOffset": {
+    "x": 0.0,
+    "y": 0.8,
+    "z": 0.0
+  },
+  "resultSite": "thingOut",
+  "effectSite": "thingIn",
+  "sites": [
+    {
+      "allowStacks": true,
+      "siteName": "thingIn",
+      "location": {
+        "x": -0.4,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "craftSite": true
+    },
+    {
+      "allowStacks": true,
+      "siteName": "thingOut",
+      "disallowManualDocking": true,
+      "location": {
+        "x": 0.6,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      }
+    }
+  ],
+  "validDockables": [
+    {
+      "category": "all",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "placeSoundGroup": "staxel.sounds.place.Stone",
+      "effectTrigger": "staxel.effect.DockItem",
+      "sites": [
+        "thingIn"
+      ]
+    },
+    {
+      "category": "all",
+      "offset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "placeSoundGroup": "staxel.sounds.place.Item.dock",
+      "effectTrigger": "staxel.effect.DockItem",
+      "sites": [
+        "thingOut"
+      ]
+    }
+  ]
+}

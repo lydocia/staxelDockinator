@@ -1,0 +1,27 @@
+{
+  "name": "Dock Furniture",
+  "code": "xable.dockinator.MinimalistDesk.dock",
+  "recipeStep": "Dockinator",
+  "moveResultsToSite": "thingOut",
+  "anyTool": true,
+  "automated": true,
+  "automationDelay": 3,
+  "docks": [
+    "xable.dockinator.dock"
+  ],
+  "reagents": [
+    {
+      "kind": "staxel.item.Placer",
+      "tile": "staxel.tileObject.themedfurniture.minimalist.MinimalistDesk.NoDock"
+    }
+  ],
+  "results": [
+    {
+      "kind": "staxel.item.Placer",
+	  "tile": "staxel.tileObject.themedfurniture.minimalist.MinimalistDesk"
+    }
+  ],
+  "duration": 4/* seconds*/,
+  "effect": "staxel.effect.crafting.SeedMaker"/*only valid with duration*/,
+  "effectTrigger": "staxel.effect.crafting.SeedMaker.result"
+}
