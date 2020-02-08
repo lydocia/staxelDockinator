@@ -5,7 +5,7 @@
     "dockinator",
     "xable"
   ],
-  "code": "xable.dockinator.machine",
+  "code": "lydocia.dockinator.machine",
   "compound": {
     "size": {
       "x": 2,
@@ -14,7 +14,7 @@
     }
   },
   "descriptionImage": "staxel/ui/image/CraftingIcons/CarveIcon.png",
-  "dockDefinition": "xable.dockinator.dock",
+  "dockDefinition": "lydocia.dockinator.dock",
   "pricing": {
     "buyable": true,
     "catalogueUnlockedFromStart": true,
@@ -23,5 +23,5 @@
   },
   "searchable": true,
   "stepSoundGroup": "staxel.sounds.WoodFootSteps",
-  "voxels": "mods/Xable's Dockinator/machine/Dockinator.qb"
+  "voxels": "mods/Dockinator/machine/Dockinator.qb"
 }

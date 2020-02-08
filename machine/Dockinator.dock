@@ -1,5 +1,5 @@
 {
-  "code": "xable.dockinator.dock",
+  "code": "lydocia.dockinator.dock",
   "craftingKeyword": "Dockinator",
   "removeReagentsOnCraftStart": false,
   "nameTagOffset": {
